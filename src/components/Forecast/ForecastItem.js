@@ -48,10 +48,18 @@ const ForecastItem = (props) => {
                 <div className={classes.showWeather}>
                     <p>{city} , {country}</p>
                     <h2>{weather}</h2>
-                    <p>{weatherDesc}</p>
-                    <p>{minTemp} &#8451; ~ {maxTemp} &#8451;</p>
-                    <p>{humidity} %</p>
-                    <p>{setTime}</p>
+                    <p className={classes.iStyle}>{weatherDesc}</p>
+                    <div className={classes.moreDetails}>
+                        <div className="feels">
+                           <p>{minTemp} &#8451; ~ {maxTemp} &#8451; °F</p>
+                            <p className={classes.bold}>Feels</p>
+                        </div>
+                        <div className="humidity">
+                           <p>{humidity}%</p>
+                            <p className={classes.bold}>Humidity</p>
+                        </div>
+                    </div>
+                    <p className={classes.small}>Retrieve at: {setTime}</p>
 
                 </div>
             </section> : null}

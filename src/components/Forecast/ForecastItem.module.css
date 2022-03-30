@@ -8,6 +8,33 @@
   text-align: center;
 }
 
+.showWeather h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.iStyle {
+  font-style: italic;
+}
+
+.showWeather .moreDetails {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
 form input[name="city"],
 form input[name="country"] {
   background-color: transparent;
