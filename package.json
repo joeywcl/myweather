@@ -1,7 +1,7 @@
 {
   "name": "today-weather-app",
   "version": "0.1.0",
-  "homepage": "https://joeywcl.github.io/todayweather/",
+  "homepage": "https://joeywcl.github.io/todayweather",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
@@ -12,7 +12,8 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.3.1",
     "react-redux": "^7.2.6",
-    "react-scripts": "4.0.1"
+    "react-scripts": "4.0.1",
+    "web-vitals": "^2.1.3"
   },
   "scripts": {
     "predeploy": "npm run build",
