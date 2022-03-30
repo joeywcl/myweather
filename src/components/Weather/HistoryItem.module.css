@@ -1,0 +1,40 @@
+.item {
+  margin: 0.2rem 0;
+  background-color: #575757;
+  color: white;
+  padding: 0.5rem;
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.leftDetails {
+  position: absolute;
+}
+
+.details {
+  justify-content: center;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 0.5rem;
+  padding: 0.15rem 1rem;
+  color: white;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #4b4b4b;
+  color: white;
+}

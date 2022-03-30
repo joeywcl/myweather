@@ -1,0 +1,18 @@
+
+.inline {
+  display: inline;
+  margin: 10px;
+}
+
+.showWeather {
+  text-align: center;
+}
+
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: black;
+  border: none;
+  border-bottom: 2px solid #0d0d0d4d;
+  border-radius: 0;
+}
