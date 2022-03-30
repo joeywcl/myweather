@@ -74,10 +74,11 @@ export const sendWeatherData = (weather) => {
 };
 
 export const getWeatherData = (data) => {
+    const appid = 'ddd12c48007ccc04acae24afcdf70f62';
     return async (dispatch) => {
 
         const getData = async () => {
-            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${data.weatherData.city},${data.weatherData.country}&units=metric&appid=ddd12c48007ccc04acae24afcdf70f62`);
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${data.weatherData.city},${data.weatherData.country}&units=metric&appid=${appid}`);
 
             if (!response.ok) {
                 throw new Error('Weather forecast not found.')
