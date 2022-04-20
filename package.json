@@ -1,7 +1,7 @@
 {
   "name": "today-weather-app",
   "version": "0.1.0",
-  "homepage": "https://joeywcl.github.io/todayweather",
+  "homepage": "https://joeywcl.github.io/myweather",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.7.1",
